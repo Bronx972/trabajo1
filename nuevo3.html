@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Citas Médicas</title>
+    <style>
+        #cero{
+            background-image: url(https://img.freepik.com/foto-gratis/fondo-acuarela-pintada-mano-forma-cielo-nubes_24972-1095.jpg?size=626&ext=jpg&ga=GA1.2.1149860058.1620691200);
+            margin-top: -25px;
+            padding: 0.001px; 
+        }
+        #one{
+            padding-left: 60px;
+            font-size: 80px;
+        }
+        .two{
+            color: rgb(85, 155, 224);
+        }
+        .three{
+            color: rgb(40, 88, 133);
+        }
+        .four{position: absolute;
+            top:40px;
+            right: 40px;
+        }
+        #five{
+            position: relative;
+            right: 25px;
+            background-color: antiquewhite;
+            text-decoration: none;
+            padding: 10px ;
+        }
+        #six{
+            position: relative;
+            right: 25px;
+            background-color: antiquewhite;
+            text-decoration: none;
+            padding: 10px ;
+        }
+        #seven{
+            position: relative;
+            right: 25px;
+            background-color: antiquewhite;
+            text-decoration: none;
+            padding: 10px ;
+        }
+        body{
+            background-image: url(https://image.freepik.com/foto-gratis/resumen-borroso-interior-hospital-clinica-lujo-hermoso-fondo_103324-624.jpg );
+            background-size: cover;
+            margin: 50px;
+            height: 100vh;
+        }
+        hr{
+            border: none; 
+            height: 3px; 
+            color: #333; 
+            background-color: #333
+        }
+        #catorce{
+            background-color:rgb(126, 216, 228);
+            background-image: url(https://img.freepik.com/vector-gratis/fondo-abstracto-formas-blancas_79603-1362.jpg?size=626&ext=jpg);
+            text-align: center;
+            z-index:2;
+            position: absolute;
+            top:300px;
+            left: 500px;
+            border:5px inset  rgb(91, 164, 247)
+        }
+    </style>
+</head>
+<body> 
+   <div id="cero"><h1 id="one"><span class="two">Va</span><span class="three">Q</span><span class="two">nate</span></h1><h3 class="four"> <a id='five' href=""> Home</a> &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; <a id='six' href="nuevo2.html">Reserva</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a id='seven' href="nuevo4.html">Pago</a></h3></div>
+    <div id='catorce'>
+        <p></p><h2>Felicidades!!!!</h2><br>
+        Su Cita fue aceptada ,Por favor ,Dirigase a Pago para <br>
+        cancelar su cita.</p>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+   <hr>
+</body>
+<script>
+    
+    (function(){
+
+    var fecha = new Date();
+    document.write(fecha);
+
+    console.log(fecha.getHours()-12);
+    console.log(fecha.getMinutes());
+    console.log(fecha.getSeconds());
+    
+    var semana = ['Domingo','Lunes','Martes','Miercoles','Jueves','Viernes','Sabado']
+
+    console.log(fecha.getDay());
+    console.log(fecha.getDate());
+    console.log(fecha.getMonth());
+    console.log(fecha.getFullYear());
+
+    }())
+
+    </script>
+</html>
